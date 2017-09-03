@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console": 0,
+    "space-before-function-paren": 2,
+    "no-return-assign": 0,
+    "react/prop-types": 0,
+    "react/no-unescaped-entities": 0
+  }
+}
